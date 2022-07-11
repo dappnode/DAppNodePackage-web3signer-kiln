@@ -19,14 +19,14 @@
     "url": "git+https://github.com/ConsenSys/web3signer.git"
   },
   "bugs": {
-    "url": "https://github.com/ConsenSys/web3signer/issues"
+    "url": "https://github.com/dappnode/DAppNode-web3signer-kiln/issues"
   },
   "links": {
     "ui": "http://ui.web3signer-kiln.dappnode?signer_url=http://web3signer.web3signer-kiln.dappnode:9000",
     "homepage": "https://docs.web3signer.consensys.net/en/latest/",
     "readme": "https://github.com/ConsenSys/web3signer/blob/master/README.md"
   },
-  "license": "GLP-3.0",
+  "license": "GPL-3.0",
   "requirements": {
     "minimumDappnodeVersion": "0.2.51"
   }
