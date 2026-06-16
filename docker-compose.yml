@@ -13,7 +13,7 @@ services:
       context: web3signer
       dockerfile: Dockerfile.dev
       args:
-        UPSTREAM_VERSION: 21.10.6
+        UPSTREAM_VERSION: 26.4.2
     environment:
       KEYFILES_DIR: /opt/web3signer/keyfiles
       SIGNER_PORT: 9000
