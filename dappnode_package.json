@@ -1,9 +1,14 @@
 {
   "name": "web3signer-kiln.public.dappnode.eth",
   "version": "0.1.0",
-  "upstreamVersion": "21.10.6",
+  "upstream": [
+    {
+      "repo": "ConsenSys/web3signer",
+      "version": "21.10.6",
+      "arg": "UPSTREAM_VERSION"
+    }
+  ],
   "architectures": ["linux/amd64"],
-  "upstreamRepo": "ConsenSys/web3signer",
   "shortDescription": "web3signer",
   "description": "",
   "type": "service",
